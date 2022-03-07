@@ -12,11 +12,11 @@ int Math :: Add(int x, int y, int z)
 }
 int Math :: Add(double x, double y)
 {
-	return (double)(x + y);
+	return (int)(x + y);
 }
 int Math :: Add(double x, double y, double z)
 {
-	return (double)(x + y + z);
+	return (int)(x + y + z);
 }
 int Math :: Mul(int x, int y)
 {
@@ -28,11 +28,11 @@ int Math :: Mul(int x, int y, int z)
 }
 int Math :: Mul(double x, double y)
 {
-	return (double)(x * y);
+	return (int)(x * y);
 }
 int Math :: Mul(double x, double y, double z)
 {
-	return (double)(x * y * z);
+	return (int)(x * y * z);
 }
 int Math :: Add(int count, ...)
 {
